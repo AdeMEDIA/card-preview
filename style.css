@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Figtree-ExtraBold";
+    src: url("Figtree-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Figtree-SemiBold";
+    src: url("Figtree-SemiBold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Figtree-ExtraBold";
+    background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.container {
+    width: 90%;
+    max-width: 360px;
+}
+
+.preview {
+    background-color: white;
+    padding: 18px;
+    border-radius: 18px;
+    margin: 0 1.5em;
+    box-shadow: 5px 5px 0 black;
+}
+
+#blog-pics {
+    width: 100%;
+    display: block;
+    border-radius: 13px;
+    margin-bottom: 20px;
+}
+
+.s-title {
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: smaller;
+    font-family: "Figtree-ExtraBold";
+    border: none;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.s-title:hover,
+.s-title:focus {
+    background-color: hsl(0, 0%, 50%);
+}
+
+#para1 {
+    font-size: x-small;
+    margin: 10px 0;
+    font-family: "Figtree-SemiBold";
+}
+
+h1 {
+    margin: 15px 0;
+    font-family: "Figtree-ExtraBold";
+    font-size: 20px;
+}
+
+.para2 {
+    font-size: smaller;
+    color: hsl(0, 0%, 50%);
+    margin-bottom: 15px;
+}
+
+ul.author {
+    list-style: none;
+    padding-bottom: 8px;
+    margin-bottom: 5px;
+}
+
+ul.author li {
+    display: inline-block;
+}
+
+ul.author li img {
+    width: 2em;
+    height: auto;
+    vertical-align: middle;
+}
+
+ul.author li p {
+    height: auto;
+    vertical-align: middle;
+    font-size: x-small;
+    font-family: "Figtree-ExtraBold";
+}
+
+.attribution {
+    font-family: "Figtree-SemiBold";
+    font-size: xx-small;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
