@@ -31,20 +31,17 @@ This is a solution to the [Blog Card Preview Challenge on Frontend Mentor](https
 
 **HTML Structure**
 
-I started by using a semantic tag section with class "container" and then put another div inside named "preview".
-
-I placed the Card image inside the preview div.
-
-I add main to hold my text and add h1, and my list for the author pics and name and paragraphs in it.
-
-I also create another the footer for attribution to frontEnd mentor and myside "#".
+1. I began with a semantic `<section>` tag, assigning the class 'container'.
+2. Inside the 'container', I placed another `<div>` named 'preview'.
+3. I added the card image within the 'preview' div.
+4. Introducing a `<main>` element, I organized text, including `<h1>` and a list for author pictures, names, and paragraphs.
+5. For attribution, I created a footer linking to Frontend Mentor and my personal site '#'.
 
 **CSS Styling**
-I add the font on the folder already by using the @facefont rule. 
+1. I included the font using the `@font-face` rule.
+2. To ensure consistency, I applied a universal selector `(*)`, setting margin and padding to 0.
+3. I used the `body` selector to implement background-color and other styles.
 
-I add a universal selector(*) to set margin and padding to 0 
-
-Then use the body selector to add background-color and other styles to the body.
 
 
 ### Built with
@@ -54,7 +51,7 @@ Then use the body selector to add background-color and other styles to the body.
 
 ### What I learned
  
- This help me to understand CSS flexbox more.
+ This helps me to understand CSS flexbox more.
  I'll be trying Grid layout soon 🔜.
 
 
